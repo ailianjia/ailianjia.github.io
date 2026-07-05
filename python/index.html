@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Python 学习路线图</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="sidebar">
+  <div class="sidebar-header">
+    <h1>Python 学习路线图</h1>
+    <div class="progress-info">
+      <div class="progress-bar-container"><div class="progress-bar-fill" id="progressFill"></div></div>
+      <span class="progress-pct" id="progressPct">0%</span>
+    </div>
+    <div class="progress-text" id="progressText" style="font-size:11px;color:#484f58;margin-top:4px;">0 / 0 已完成</div>
+  </div>
+  <div class="stage-list" id="stageList"></div>
+  <div class="reset-section">
+    <button class="reset-btn" onclick="resetAll()">重置所有进度</button>
+  </div>
+</div>
+<div class="main" id="mainArea"></div>
+
+<script>const stages = [];</script>
+<script src="js/stage-01-basic.js"></script>
+<script src="js/stage-02-intermediate.js"></script>
+<script src="js/stage-03-advanced.js"></script>
+<script src="js/stage-04-engineering.js"></script>
+<script src="js/stage-05-frameworks.js"></script>
+<script src="js/stage-06-office.js"></script>
+<script src="js/stage-07-web-crawler.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
